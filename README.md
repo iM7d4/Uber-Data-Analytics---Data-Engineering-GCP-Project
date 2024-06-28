@@ -27,5 +27,5 @@ Yellow and green taxi trip records include fields capturing pick-up and drop-off
 [Data Dictionary](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)
 
 ## Data Model
-<img src="[data_model.jpeg](https://github.com/iM7d4/Uber-Data-Analytics---Data-Engineering-GCP-Project/blob/main/Data_Model.png)">
+<img src="Data_Model.png">
 
