@@ -33,7 +33,7 @@ Yellow and green taxi trip records include fields capturing pick-up and drop-off
 I've implemented the following action plan: 
 1. Data Modelling: Used a snowflake schema and derived multiple Dimensional tables connected to one Fact table.
 2. Data Transformation : In a local notebook, I transformed the dataset according to the data model prepared to create the suitable Dimensional and Fact Tables after cleaning the data. [Data Transformation Code](https://github.com/iM7d4/Uber-Data-Analytics---Data-Engineering-GCP-Project/blob/main/Uber%20Data%20Pipeline.ipynb)
-	3. Google Cloud: 
+3. Google Cloud: 
 		a. Google Storage : Stored the original dataset into the bucket for easy access via a public link.
 		b. Compute Engine : Created a E2 Series Standard Computer Instance with HTTP requests enabled under Firewall. We can easily connect to the instance by clicking on the "SSH" Button. To install everything to be used on the instance, we run the relevant commands. [List of Commands](https://github.com/iM7d4/Uber-Data-Analytics---Data-Engineering-GCP-Project/blob/main/commands.txt)
 		c. Mage Pipeline : Implemented the ETL process where data is extracted from Google Storage which is then transformed as per the requriement (Refer Step 2). This transformed data is then loaded into BigQuery for analytics. [Mage Files](https://github.com/iM7d4/Uber-Data-Analytics---Data-Engineering-GCP-Project/tree/main/mage-files)
